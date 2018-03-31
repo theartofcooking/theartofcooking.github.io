@@ -1,7 +1,7 @@
 ---
 layout: post
 excerpt_separator: <!--more-->
-title: "ನನಗೆಲ್ಲಾ ಗೊತ್ತಿದೆ
+title: "ನನಗೆಲ್ಲಾ ಗೊತ್ತಿದೆ"
 date: 2017-11-02
 ---
 
