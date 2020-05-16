@@ -1,6 +1,63 @@
-encoding: UTF-8
-name: Seema | VBSeema
-markdown: kramdown
-excerpt_separator: <!--more-->
+# Site
+name: "The Art of Cooking"
+title: "The Art of Cooking"
+description: "The Art of Cooking"
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/logo.png'
+baseurl: /theartofcooking
+google_analytics: 'UA-46278016-1'
+disqus: 'demowebsite'
+mailchimp-list: 'https://theartofcooking.github.io'
+include: ["_pages"]
+permalink: /:title/
 
-permalink: /blog/:year/:month/:day/:title
+# Authors
+authors:
+  sal:
+    name: Seema Bhat
+    display_name: Seema Bhat
+    gravatar: 
+    email: mail2seemavb@gmail.com
+    web: https://theartofcooking.github.io
+    twitter: 
+    description: "Welcome to The Art of Cooking. I'm Seema the face behind this webpage. In my kitchen you can find easy, simple vegetarian recipes. I'm an Engineer by profession, a passionate cook by heart."
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+    
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    
+# Pagination 
+paginate: 6
+paginate_path: /page:num/
+    
+# Other
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
+adsense: "disabled"
+adsense-data-ad-client: "ca-pub-3412143450191416"
+adsense-data-ad-slot: "1363087678"
+
+# Lazy Images ("enabled" or "disabled")
+lazyimages: "disabled"
+
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
