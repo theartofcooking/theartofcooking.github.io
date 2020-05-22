@@ -4,4 +4,3 @@ markdown: kramdown
 excerpt_separator: <!--more-->
 
 permalink: /blog/:year/:month/:day/:title
-permalink: /complexprogram/:year/:month/:day/:title

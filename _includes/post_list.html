@@ -2,7 +2,7 @@
 	{% for post in site.posts %}
 	<li>
 	<span>{{ post.date | date_to_string }}</span>
-	<div id="login-container">
+	<div class="column left">
 		<h2>
 			<a href="{{ post.url }}">{{ post.title }}</a>
 		</h2>
@@ -17,8 +17,7 @@
 		  </div>
 		</footer>
 	</div>
-
-	<div id="login-container">
+	<div class="column left">
 		<h2>
 			<a href="{{ post.url }}">{{ post.title }}</a>
 		</h2>
@@ -33,7 +32,6 @@
 		  </div>
 		</footer>
 	</div>
-	
 	</li>
 	{% endfor %}  
 </ul>
