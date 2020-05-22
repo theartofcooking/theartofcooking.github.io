@@ -1,0 +1,27 @@
+<ul class="posts">
+	{% for post in site.posts %}
+	<li>
+	<span>{{ post.date | date_to_string }}</span>
+	<div id="login-container">
+		<div class="profile-img"></div>
+		<h1>
+			<a href="{{ post.url }}">{{ post.title }}</a>
+		</h1>
+		<div class="description">
+			<p> {{ post.excerpt }} </p>
+		</div>
+		<button>Read More</button>
+		<footer>
+		  <div class="likes">
+			<p><i class='fa fa-heart'></i></p>
+			<p>1.5K</p>
+		  </div>
+		  <div class="projects">
+			<p>Comments</p>
+			<p>0</p>
+		  </div>
+		</footer>
+	</div>
+	</li>
+	{% endfor %}  
+</ul>
