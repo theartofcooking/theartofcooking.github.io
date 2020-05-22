@@ -15,7 +15,13 @@ body {
 }
 
 .left {
-    width: 25%;
+  height: 400px;
+  width: 25%;
+  padding: 20px;
+  border-radius: 5px;
+  background: linear-gradient(45deg, $accent, $otherAccent, $otherAccent, $accent);
+  position: relative;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
 }
   
 .right {
