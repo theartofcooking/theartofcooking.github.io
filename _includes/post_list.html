@@ -1,8 +1,9 @@
 <ul class="posts">
 	{% for post in site.posts %}
 	<li>
-	<span>{{ post.date | date_to_string }}</span>
 	<div class="column left">
+		<span>{{ post.date | date_to_string }}</span>
+		<div id="login-container">
 		<h2>
 			<a href="{{ post.url }}">{{ post.title }}</a>
 		</h2>
@@ -16,21 +17,7 @@
 			<p>1.5K</p>
 		  </div>
 		</footer>
-	</div>
-	<div class="column left">
-		<h2>
-			<a href="{{ post.url }}">{{ post.title }}</a>
-		</h2>
-		<div class="description">
-			<p> {{ post.excerpt }} </p>
 		</div>
-		<button><a href="{{ post.url }}">Read More</a></button>
-		<footer>
-		  <div class="likes">
-			<p><i class='fa fa-heart'></i></p>
-			<p>1.5K</p>
-		  </div>
-		</footer>
 	</div>
 	</li>
 	{% endfor %}  
