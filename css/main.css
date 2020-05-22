@@ -55,7 +55,7 @@ body {
  button {
     width: 80%;
     height: 80px;
-    font-size: 2rem;
+    font-size: 10px;
     margin: 30px 10% 0 10%;
     border: none;
     outline: 0;
@@ -110,11 +110,6 @@ p {
     line-height: 1.2em;
     color: #331900;
 }
-
-/*footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
-}*/
 
 footer {
     display: flex;
