@@ -66,6 +66,11 @@ p2 {
   position: relative;
 }
 
+.rect {
+width: 100%;
+max-height: 10px;
+background-color: #00;
+}
   /* Clear floats after the columns * /
 .row:after {
     content: "";
@@ -86,9 +91,10 @@ p2 {
 }
   
  button {
-    width: 80%;
-    height: 80px;
-    font-size: 10px;
+    /*width: 80%;
+    height: 80px;*/
+    font-size: 20px;
+    font-family: 'Asap', sans-serif;
     margin: 30px 10% 0 10%;
     border: none;
     outline: 0;
@@ -98,7 +104,7 @@ p2 {
     text-align: center;
     cursor: pointer;
     background: linear-gradient(90deg, rgba(215,214,236,1) 0%, rgba(125,125,226,1) 35%, rgba(140,210,212,1) 100%);
-    background-size: 300% 300%;
+    /*background-size: 300% 300%;*/
     outline: none;
     transition: all 200ms ease-in-out;
   }
