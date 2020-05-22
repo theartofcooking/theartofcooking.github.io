@@ -22,7 +22,40 @@ body {
     width: 75%;
 }
 
+h1 {
+  font-size: 3em;
+  font-family: 'Roboto Mono', monospace;
+color: #001933;
+}
+
+h2 {
+  font-size: 2em;
+  font-family: 'Roboto Mono', monospace;
+color: #001933;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-family: 'Asap', sans-serif;
+color: #001933;
+}
+
+p {
+  font-family: 'Catamaran', sans-serif;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  color: #331900;
+}
+
+p2 {
+  font-size: 20px;
+  line-height: 1.2em;
+  color: #331900;
+  font-family: 'Dosis', sans-serif;
+}
+
 .boxcard {
+  float: left;
   height: 400px;
   max-width: 350px;
   box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
@@ -93,23 +126,7 @@ a:hover {
     text-decoration: underline;
 }
 
-h1 {
-    font-size: 3em;
-    font-family: 'Roboto Mono', monospace;
-	color: #001933;
-}
-h2 {
-    font-size: 2em;
-    font-family: 'Roboto Mono', monospace;
-	color: #001933;
-}
 
-p {
-    font-family: 'Catamaran', sans-serif;
-    font-size: 1.2em;
-    line-height: 1.2em;
-    color: #331900;
-}
 
 footer {
     display: flex;

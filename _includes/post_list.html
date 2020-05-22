@@ -1,11 +1,11 @@
 <ul class="posts">
 	{% for post in site.posts %}
 	<li>
-		<div class="column card">
+		<div class="boxcard">
 		<span>{{ post.date | date_to_string }}</span>
 		<h3> <a href="{{ post.url }}">{{ post.title }}</a></h3>
 		<div class="description">
-			<p> {{ post.excerpt }} </p>
+			<p2> {{ post.excerpt }} </p>
 		</div>
 		<button><a href="{{ post.url }}">Read More</a></button>
 		<footer>
