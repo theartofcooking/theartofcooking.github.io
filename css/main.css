@@ -25,11 +25,11 @@ body {
 .boxcard {
   height: 400px;
   width: 350px;
-  padding: 20px;
-  border-radius: 5px;
-  background: linear-gradient(45deg, $accent, $otherAccent, $otherAccent, $accent);
-  position: relative;
   box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+  padding: 5px;
+  border-radius: 5px;
+  background: linear-gradient(90deg, rgba(241,131,21,1) 0%, rgba(244,213,32,0.6278886554621849) 35%, rgba(172,255,0,0.5298494397759104) 100%);
+  /*position: relative;*/
 }
 
   /* Clear floats after the columns * /
@@ -51,7 +51,7 @@ body {
     font-size: 12px;
 }
   
-/*  button {
+ button {
     border: none;
     outline: 0;
     display: inline-block;
@@ -63,54 +63,7 @@ body {
     width: 100%;
     font-size: 18px;
   }
-*/
-#login-container {
-    height: 400px;
-    width: 350px;
-    padding: 20px;
-    border-radius: 5px;
-    background: linear-gradient(45deg, $accent, $otherAccent, $otherAccent, $accent);
-    position: relative;
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
-    .profile-img {
-      height: 100px;
-      width: 100px;
-      background: url("../skp.jpg");
-      background-size: cover;
-      background-position: center;
-      position: absolute;
-      top: -25px;
-      left: -25px;
-      border-radius: 50%;
-      box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
-    }
-  }
 
-button {
-    width: 80%;
-    height: 80px;
-    font-size: 2rem;
-    margin: 30px 10% 0 10%;
-    color: #FF9933;
-    border: none;
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
-    border-radius: 5px;
-    background: linear-gradient(45deg, $accent, $otherAccent, $otherAccent, $accent);
-    background-size: 300% 300%;
-    outline: none;
-    transition: all 200ms ease-in-out;
-    &:hover{
-      box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
-      transform: translateY(2px);
-      -webkit-animation: gradientBG 1.5s ease-in-out forwards;
-      animation: gradientBG 1.5s ease-in-out forwards;
-      cursor: pointer;
-    }
-    &:active {
-      box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
-      transform: translateY(4px);
-    }
-}
 
 nav ul, footer ul {
     font-family: 'Roboto Mono', monospace;
