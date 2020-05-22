@@ -26,7 +26,7 @@ body {
   height: 400px;
   width: 350px;
   box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
-  padding: 5px;
+  padding: 15px;
   border-radius: 5px;
   background: linear-gradient(90deg, rgba(241,131,21,1) 0%, rgba(244,213,32,0.6278886554621849) 35%, rgba(172,255,0,0.5298494397759104) 100%);
   /*position: relative;*/
@@ -52,16 +52,21 @@ body {
 }
   
  button {
+    width: 80%;
+    height: 80px;
+    font-size: 2rem;
+    margin: 30px 10% 0 10%;
     border: none;
     outline: 0;
     display: inline-block;
     padding: 8px;
     color: white;
-    background-color: #000;
     text-align: center;
     cursor: pointer;
-    width: 100%;
-    font-size: 18px;
+    background: linear-gradient(90deg, rgba(215,214,236,1) 0%, rgba(125,125,226,1) 35%, rgba(140,210,212,1) 100%);
+    background-size: 300% 300%;
+    outline: none;
+    transition: all 200ms ease-in-out;
   }
 
 
