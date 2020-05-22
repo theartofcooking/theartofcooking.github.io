@@ -6,5 +6,5 @@ date: 2020-05-10
 tags: Oats Healthy Meals
 ---
 
-![image info](./photos/HealthyOatMeals.JPG)
+![alt text](HealthyOatMeals.JPG)
 <!--more-->
