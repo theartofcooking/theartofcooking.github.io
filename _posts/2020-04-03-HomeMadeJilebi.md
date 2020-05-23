@@ -6,5 +6,5 @@ date: 2020-04-03
 tags: Indian-Sweet Jilebi Sweets
 ---
 
-![alt text](HomeMadeJilebi.JPG)
+![Jilebi!](./HomeMadeJilebi.JPG "Jilebi")
 <!--more-->

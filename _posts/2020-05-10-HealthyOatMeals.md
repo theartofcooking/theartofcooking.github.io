@@ -6,5 +6,5 @@ date: 2020-05-10
 tags: Oats Healthy Meals
 ---
 
-![alt text](HealthyOatMeals.JPG)
+![Oat Meal!](./HealthyOatMeals.JPG "Oat Meal")
 <!--more-->
